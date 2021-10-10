@@ -7,7 +7,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let library = libsdl2(version);
 
     let context = LibraryCompilationContext::new(
-        "target",
+        "target/src",
         "target",
         LibraryTarget::for_current_platform(),
         false,
