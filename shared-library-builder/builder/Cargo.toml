@@ -1,5 +1,5 @@
 [package]
-name = "sdl2-library-builder-builder"
+name = "libsdl2-builder"
 version = "0.1.0"
 edition = "2018"
 
@@ -9,4 +9,4 @@ path = "src/main.rs"
 
 [dependencies]
 shared-library-builder = { git = "https://github.com/feenkcom/shared-library-builder-rs" }
-sdl2-library = { path = "../library" }
+libsdl2-library = { path = "../library" }

@@ -15,7 +15,7 @@ pipeline {
 
         LIBRARY_NAME = 'SDL2'
         REPOSITORY_OWNER = 'feenkcom'
-        REPOSITORY_NAME = 'sdl2-library-builder'
+        REPOSITORY_NAME = 'libsdl2'
 
         MACOS_INTEL_TARGET = 'x86_64-apple-darwin'
         MACOS_M1_TARGET = 'aarch64-apple-darwin'
