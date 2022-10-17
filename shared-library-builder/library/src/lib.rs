@@ -10,3 +10,8 @@ pub fn libsdl2(binary_version: Option<impl Into<String>>) -> CMakeLibrary {
         LibraryLocation::Git(GitLocation::github("feenkcom", "libsdl2").tag(version))
     }))
 }
+
+pub fn latest_libsdl2() -> CMakeLibrary {
+    let version: Option<String> = None;
+    libsdl2(version)
+}
